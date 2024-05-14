@@ -3,7 +3,6 @@ package com.jpo.jpo.DTO;
 import com.jpo.jpo.enums.UserRole;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
 
 public class CreateUser {
     @NotBlank
