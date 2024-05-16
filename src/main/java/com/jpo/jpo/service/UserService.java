@@ -1,6 +1,5 @@
 package com.jpo.jpo.service;
 
-import com.jpo.jpo.dto.CommandeDTO.UpdateCommandeDTO;
 import com.jpo.jpo.dto.UserDTO.CreateUserDTO;
 import com.jpo.jpo.dto.UserDTO.UpdateUserDTO;
 import com.jpo.jpo.model.User;
@@ -14,12 +13,12 @@ import java.util.List;
 @Service
 public class UserService {
     private final UserRepository repository;
-    private final CommandeService cmdservice;
+//    private final CommandeService cmdservice;
 
     @Autowired
     public UserService(UserRepository userRepository, CommandeService cmdservice) {
         this.repository = userRepository;
-        this.cmdservice = cmdservice;
+//        this.cmdservice = cmdservice;
     }
 
     public List<User> findAllUser() { return repository.findAll(); }

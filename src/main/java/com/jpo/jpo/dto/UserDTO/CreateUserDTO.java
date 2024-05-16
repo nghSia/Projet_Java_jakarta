@@ -2,7 +2,6 @@ package com.jpo.jpo.dto.UserDTO;
 
 
 import com.jpo.jpo.enums.UserRole;
-import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 

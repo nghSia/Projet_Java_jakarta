@@ -3,15 +3,14 @@ package com.jpo.jpo.dto.CommandeDTO;
 
 import com.jpo.jpo.enums.TypeCommande;
 import com.jpo.jpo.model.User;
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 import java.time.LocalDateTime;
 
 public class CreateCommandeDTO {
 
-//    @NotNull
-//    private Long id;
+    @NotNull
+    private Long id;
 
     private LocalDateTime dateCmd = LocalDateTime.now();
 
@@ -62,8 +61,8 @@ public class CreateCommandeDTO {
         this.user = user;
     }
 
-//    public Long getId() {
-//        return id;
-//    }
+    public Long getId() {
+        return id;
+    }
 }
 

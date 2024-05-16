@@ -2,7 +2,6 @@ package com.jpo.jpo.dto.CommandeDTO;
 
 import com.jpo.jpo.enums.TypeCommande;
 import com.jpo.jpo.model.User;
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 import java.time.LocalDateTime;

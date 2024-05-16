@@ -2,7 +2,6 @@ package com.jpo.jpo.controller;
 
 import com.jpo.jpo.dto.BilletDTO.CreateBilletDTO;
 import com.jpo.jpo.dto.BilletDTO.UpdateBilletDTO;
-import com.jpo.jpo.dto.UserDTO.CreateUserDTO;
 import com.jpo.jpo.model.Billet;
 import com.jpo.jpo.service.BilletService;
 import jakarta.validation.Valid;
